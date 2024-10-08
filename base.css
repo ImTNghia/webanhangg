@@ -1,0 +1,55 @@
+:root{
+    --white-color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+    --btn-color: #f69f50fc;
+    --primary-color: rgb(219, 40, 40);
+    --box-shadow: #dbd8d8;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Ẩn nút mũi tên cho Chrome và các trình duyệt dựa trên WebKit */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Ẩn nút mũi tên cho Firefox */
+input[type="number"] {
+    -moz-appearance: textfield; /* Chỉ định kiểu nhập là textfield */
+}
+
+/* active */
+.active{
+    color: var(--white-color) !important;
+    background-color: var(--primary-color);
+}
+
+.row{
+    margin-top: 96px;
+}
+
+/* animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./boostrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./icon/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Menu Order</title>
+</head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <div class="header">
+            <div class="container">
+                <div class="header-wrap">
+                    <!-- logo -->
+                    <div class="header-logo">
+                        <img class="header-logo_img" src="./img/logo.png" alt="">
+                    </div>
+                                
+                    <!-- login -->
+                    <div id="showFormLogin" class="header-login">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <!-- container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="category">
+                        <ul class="category-list">
+                            <div class="category-item_wrap">
+                                <li class="category-item">
+                                    <a class="categorry-item_link active" href="#">
+                                        <img class="category-item_img" src="./img/quanau.jpg" alt="">
+                                        <span class="category-item_name">Quần Âu</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="category-item_wrap">
+                                <li class="category-item">
+                                    <a class="categorry-item_link" href="#">
+                                        <img class="category-item_img" src="./img/quanshort.webp" alt="">
+                                        <span class="category-item_name">Quần Short</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="category-item_wrap">
+                                <li class="category-item">
+                                    <a class="categorry-item_link" href="#">
+                                        <img class="category-item_img" src="./img/quanjean.webp" alt="">
+                                        <span class="category-item_name">Quần Jean</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="category-item_wrap">
+                                <li class="category-item">
+                                    <a class="categorry-item_link" href="#">
+                                        <img class="category-item_img" src="./img/aophong.webp" alt="">
+                                        <span class="category-item_name">Áo Phông</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="category-item_wrap">
+                                <li class="category-item">
+                                    <a class="categorry-item_link" href="#">
+                                        <img class="category-item_img" src="./img/aopolo.jpg" alt="">
+                                        <span class="category-item_name">Áo Polo</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="category-item_wrap">
+                                <li class="category-item">
+                                    <a class="categorry-item_link" href="#">
+                                        <img class="category-item_img" src="./img/aosomi.jpeg" alt="">
+                                        <span class="category-item_name">Áo Sơ Mi</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <!-- category on tablet and mobile -->
+                    <nav class="mobile-category">
+                        <ul class="mobile-category_list">
+                            <li class="mobile-category_item">
+                                <div class="mobile-category_item_wrap">
+                                    <a href="#" class="mobile-category_link active">
+                                        <img class="mobile-category-item_img" src="./img/quanau.jpg" alt="">
+                                        <span class="category-item_name">Quần Âu</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mobile-category_item">
+                                <div class="mobile-category_item_wrap">
+                                    <a href="#" class="mobile-category_link">
+                                        <img class="mobile-category-item_img" src="./img/quanshort.webp" alt="">
+                                        <span class="category-item_name">Quần Short</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mobile-category_item">
+                                <div class="mobile-category_item_wrap">
+                                    <a href="#" class="mobile-category_link">
+                                        <img class="mobile-category-item_img" src="./img/quanjean.webp" alt="">
+                                        <span class="category-item_name">Quần Jean</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mobile-category_item">
+                                <div class="mobile-category_item_wrap">
+                                    <a href="#" class="mobile-category_link">
+                                        <img class="mobile-category-item_img" src="./img/aophong.webp" alt="">
+                                        <span class="category-item_name">Áo Phông</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mobile-category_item">
+                                <div class="mobile-category_item_wrap">
+                                    <a href="#" class="mobile-category_link">
+                                        <img class="mobile-category-item_img" src="./img/aopolo.jpg" alt="">
+                                        <span class="category-item_name">Áo Polo</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mobile-category_item">
+                                <div class="mobile-category_item_wrap">
+                                    <a href="#" class="mobile-category_link">
+                                        <img class="mobile-category-item_img" src="./img/aosomi.jpeg" alt="">
+                                        <span class="category-item_name">Áo Sơ Mi</span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-5">
+                    <div class="products">
+                        <div class="products-header">
+                            <input class="products-search" type="text" placeholder="Tìm kiếm sản phẩm">
+                            <button class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div class="products-wrap">
+                            <div class="products-list">
+                                <div class="products-title">
+                                    QUẦN ÂU
+                                </div>
+                                <div class="products-box">
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/quanau.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần âu hàn quốc</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn, khoá giữa, có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">159,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/capcao.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần âu cạp cao</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn, khoá giữa, có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">169,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/ongsuong.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần âu ống suông </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn, khoá giữa, có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-list">
+                                <div class="products-title">
+                                    QUẦN SHORT
+                                </div>
+                                <div class="products-box">
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/sgio.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần short gió</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn,  có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">99,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/sdui.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần short đũi</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu đũi , mềm mịn, form chuẩn,  có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">129,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/skakiom.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần short kaki </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải kaki, form chuẩn,có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">169,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/stuihop.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần short kaki túi hộp </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải kaki, form chuẩn,có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">189,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-list">
+                                <div class="products-title">
+                                    QUẦN JEAN
+                                </div>
+                                <div class="products-box">
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/jeanxuong.jpeg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần jean ống suông</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu bò , mềm mịn, form chuẩn, khoá giữa, có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">239,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/jeanslim.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần jean slimfit nam</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải bò co giãn nhẹ, mềm mịn, form chuẩn, khoá giữa, có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">259,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/jeanbaggy.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Quần jeans baggy nam </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải bò, mềm mịn, form chuẩn, khoá giữa, có túi dễ mặc và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-list">
+                                <div class="products-title">
+                                    ÁO PHÔNG
+                                </div>
+                                <div class="products-box">
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/ptron.webp" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo phông Basic</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">159,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/pD.webp" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo phông chữ D</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải cotton , mềm mịn, form chuẩn.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/pmycat.webp" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo phông My Cats </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải cotton , mềm mịn, form chuẩn.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-list">
+                                <div class="products-title">
+                                    ÁO POLO
+                                </div>
+                                <div class="products-box">
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/polotron.webp" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo polo Basic</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn , dáng ôm phù hợp với dân công sở.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/polodentrang.png" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo polo kẻ </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn,  cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">189,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/polooversize.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo polo Hàn quốc form rộng </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn, cá tính và cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">238,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-list">
+                                <div class="products-title">
+                                    ÁO SƠ MI
+                                </div>
+                                <div class="products-box">
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/smrong.jpeg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo sơ hàn quốc form rộng</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải cotton co giãn nhẹ, mềm mịn, form chuẩn,  cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">259,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/smvb.jpg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo sơ mi Basic</div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa co giãn nhẹ, mềm mịn, form chuẩn,  cực tiện dụng.</div>
+                                            <div class="products-footer">
+                                                <div class="products-infor_price">269,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/smkaki.webp" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo sơ mi kaki </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải kaki , mềm , form hơi rộng , cực kì tiện lợi. </div>
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item">
+                                        <div class="products-img">
+                                            <img src="./img/smcoctay.jpeg" alt="">
+                                        </div>
+                                        <div class="products-infor">
+                                            <div class="products-infor_title">Áo sơ mi tay lỡ </div>
+                                            <div class="products-infor_desc">Mô tả: chất liệu vải lụa , mềm  , form hơi rộng , cực kì tiện lợi. </div>
+                                                <div class="products-infor_price">199,000₫</div>
+                                                <span class="product-infor_add">
+                                                    <i class="fa-solid fa-circle-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                     
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cart">
+                        <div class="cart-title">GIỎ HÀNG CỦA TÔI</div>
+                        <div class="cart-wrap">
+                            <!-- <div class="cart-item">
+                                <div class="cart-item_id">
+                                    <span>1</span>
+                                </div>
+                                <div class="cart-item_name">
+                                    <span class="cart-item_name_product">Quần âu hàn quốc</span>
+                                </div>
+                                <div class="cart-item_price">
+                                    <span class="cart-item_price_amount">159,000₫</span>
+                                    <div class="cart-item_action">
+                                        <button class="cart-action_minus"><i class="fa-solid fa-minus"></i></button>
+                                        <input class="cart-quantity" type="number">
+                                        <button class="cart-action_plus"><i class="fa-solid fa-plus"></i></button>
+                                        <button class="cart-action_delete"><i class="fa-solid fa-trash-can"></i></button>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="cart-footer">
+                            <table class="cart-footer_infor">
+                                <tr class="cart-total">
+                                    <td style="padding-left: 10px;">Tổng(2 món)</td>
+                                    <td style="text-align: right; padding-right: 10px;">88,000₫</td>
+                                </tr>
+                            </table>
+                            <div class="cart-footer_order">
+                                <button class="order-btn">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- show cart on mobile and tblet -->
+                <div class="mobile-show-cart">
+                    <div class="cart-footer">
+                        <div class="cart-footer_order">
+                            <button class="order-btn">XEM GIỎ HÀNG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-media">
+                <div class="footer-media_icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+            </div>
+            <div class="footer-content">Copyright 2024 © Website order</div>
+        </div>
+    </div>
+
+    <!-- form login -->
+    <div id="formLogin" class="form-login">
+        <div id="overlay" class="login-overlay">
+            <div id="loginWrap" class="login-wrap">
+                <div class="login-body">
+                    <div class="login-content">
+                        <div class="login-content_header">
+                            <span>ĐĂNG NHẬP</span>
+                        </div>
+                        <div class="login-content_user">
+                            <span>Tên tài khoản hoặc địa chỉ email*</span>
+                            <input type="text" class="login-input">
+                        </div>
+                        <div class="login-content_password">
+                            <span>Mật khẩu*</span>
+                            <input type="text" class="login-input">
+                        </div>
+                        <div class="login-content_footer">
+                            <button class="login-btn">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                    <div class="login-content" style="border: none;">
+                        <div class="login-content_header">
+                            <span>ĐĂNG KÝ</span>
+                        </div>
+                        <div class="login-content_user">
+                            <span>Tên tài khoản hoặc địa chỉ email*</span>
+                            <input type="text" class="login-input">
+                        </div>
+                        <div class="login-content_password">
+                            <span>Mật khẩu*</span>
+                            <input type="text" class="login-input">
+                        </div>
+                        <div class="login-content_footer">
+                            <button class="login-btn">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- java script -->
+    <script>
+        const showFormLogin = document.getElementById('showFormLogin');
+        const form = document.getElementById('formLogin');
+        const overlay = document.getElementById('overlay');
+        // show form login
+        showFormLogin.onclick = function(event){
+            form.style.display = 'flex';
+        }
+        // ẩn form login
+        overlay.onclick = function(event){
+            if (!document.getElementById('loginWrap').contains(event.target)) {
+                form.style.display = 'none';
+            }
+        };
+
+        // thêm sản phẩm vào giỏ hàng
+        var add_cart = document.getElementsByClassName("products-item");
+        for (var i = 0; i < add_cart.length; i++) {
+            var add = add_cart[i];
+            add.addEventListener("click", function (event) {
+                var item = event.target;
+                var product = item.parentElement.parentElement;
+                var title = product.getElementsByClassName("products-infor_title")[0].innerText;
+                var price = product.getElementsByClassName("products-infor_price")[0].innerText;
+                addItemToCart(title, price)
+            });
+            function addItemToCart(title, price, img) {
+                var cartWrap = document.createElement('div')
+                cartWrap.classList.add('cart-wrap')
+                var cartItem = document.getElementsByClassName('cart-wrap')[0]
+                // var cart_title = cartItem.getElementsByClassName('cart-item_name_product')
+                // for (var i = 0; i < cart_title.length; i++) {
+                //     if (cart_title[i].innerText == title) {
+                //         alert('Sản Phẩm Đã Có Trong Giỏ Hàng')
+                //         return
+                //     }
+                // }
+                var cartWrapContents = `
+                <div class="cart-item">
+                    <div class="cart-item_id">
+                        <span>1</span>
+                    </div>
+                    <div class="cart-item_name">
+                        <span class="cart-item_name_product">${title}</span>
+                    </div>
+                    <div class="cart-item_price">
+                        <span class="cart-item_price_amount">${price}</span>
+                        <div class="cart-item_action">
+                            <button class="cart-action_minus"><i class="fa-solid fa-minus"></i></button>
+                            <input class="cart-quantity" type="number" value ="1">
+                            <button class="cart-action_plus"><i class="fa-solid fa-plus"></i></button>
+                            <button class="cart-action_delete"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div>`
+                cartWrap.innerHTML = cartWrapContents
+                cartItem.append(cartWrap)
+                cartWrap.getElementsByClassName('cart-action_delete')[0].addEventListener('click', function () {
+                    var btn_delete = event.target
+                    btn_delete.parentElement.parentElement.remove()
+                });
+                // Thêm sự kiện cho nút tăng số lượng
+                cartWrap.getElementsByClassName('cart-action_plus')[0].addEventListener('click', function () {
+                    var quantityInput = cartWrap.getElementsByClassName('cart-quantity')[0];
+                    quantityInput.value = parseInt(quantityInput.value) + 1;
+                });
+
+                // Thêm sự kiện cho nút giảm số lượng
+                cartWrap.getElementsByClassName('cart-action_minus')[0].addEventListener('click', function () {
+                    var quantityInput = cartWrap.getElementsByClassName('cart-quantity')[0];
+                    if (parseInt(quantityInput.value) > 1) {
+                        quantityInput.value = parseInt(quantityInput.value) - 1;
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>
